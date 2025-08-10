@@ -1,0 +1,144 @@
+{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;}
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f7f9fc;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+            border-bottom: 2px solid #eee;
+        }
+
+        .logo {
+            color: #10b981;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 40px;
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #04080e;
+            text-decoration: none;
+            font-size: 16px;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .btn-home {
+            color: #ff5100;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            width: 0;
+            height: 2px;
+            background-color: #10b981;
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        nav a:hover {
+            color: #10b981;
+        }
+
+        .search-btn {
+            margin-left: auto;
+            background-color: #fff;
+            color: #ff5100;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;}
+
+        .login-btn {
+            margin-left 68%;
+            background-color: #fff;
+            color: #111827;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .register-btn {
+            margin-left 5%;
+            background-color: #fff;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;}
+
+        .register-btn{
+            background-color: #ff5100;
+        }
+
+        section {
+            padding: 80px 40px;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #111827;
+            margin-left: 18%;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 10px;
+            margin-left: 18%;
+        }
+
+        center img {
+            max-width: 100%;
+            height: auto;
+            }
+
+        .hero-section{
+        position: relative;
+        background-image: ('https://image.noelshack.com/fichiers/2025/28/3/1752059324-capture.png');
+        background-size: cover;
+        background-position: center;
+        border-radius: 16px;
+        padding: 60px;
+        color: none;
+        font-family: sans-serif;
+        max-width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        }
+
+      .kitchen-btn {
+    display: inline-block;
+    padding: 0px;
+    background-color: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: absolute;
+    left: 18%;
+    
+    }
